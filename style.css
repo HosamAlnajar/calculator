@@ -1,0 +1,74 @@
+body {
+    background-color:#000;
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.box {
+    border: 1px solid;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    padding: 20px;
+    margin-left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+.box.addition {
+    border-color: #48F3B2;
+}
+
+.box.subtraction {
+    border-color: #C479FF;
+}
+
+.box.multiplication {
+    border-color: #FE8E85;
+}
+
+.box.division {
+    border-color: #04A0D2;
+}
+
+input {
+    border: 0;
+    font-size: 20px;
+    padding: 6px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.button {
+    color: white;
+    cursor: pointer;
+}
+
+.addition .button {
+    background: #48F3B2;
+}
+
+.subtraction .button {
+    background: #C479FF;
+}
+
+.multiplication .button {
+    background: #FE8E85;
+}
+
+.division .button {
+    background: #04A0D2;
+}
+
+.result {
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 5px;
+}
