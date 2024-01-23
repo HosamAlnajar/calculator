@@ -1,4 +1,3 @@
-
 $(document).ready(function(){
     function addition() {
         let num1 = $(".addition .num1").val();
